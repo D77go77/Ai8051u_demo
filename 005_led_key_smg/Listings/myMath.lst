@@ -1,0 +1,51 @@
+C251 COMPILER V5.60.0,  myMath                                                             05/01/25  22:07:33  PAGE 1   
+
+
+C251 COMPILER V5.60.0, COMPILATION OF MODULE myMath
+OBJECT MODULE PLACED IN .\Objects\myMath.obj
+COMPILER INVOKED BY: C:\Software\Keilv5\Keil\Core\C251\BIN\C251.EXE Driver\myMath.c XSMALL BROWSE INCDIR(.\App;.\COMM;.\
+                    -Driver;.\User;..\005_) DEBUG PRINT(.\Listings\myMath.lst) OBJECT(.\Objects\myMath.obj) 
+
+stmt  level    source
+
+    1          #include "myMath.h"
+    2          
+    3          int  Add( int parm1,int parm2  )
+    4          {
+    5   1              return parm1 + parm2;
+    6   1      }
+    7          
+    8          
+    9          int  Sub( int parm1,int parm2  )
+   10          {
+   11   1              return parm1 - parm2;
+   12   1      }
+   13          
+   14          int  Mul( int parm1,int parm2  )
+   15          {
+   16   1              return parm1 * parm2;
+   17   1      }
+
+
+Module Information          Static   Overlayable
+------------------------------------------------
+  code size            =        13     ------
+  ecode size           =    ------     ------
+  data size            =    ------     ------
+  idata size           =    ------     ------
+  pdata size           =    ------     ------
+  xdata size           =    ------     ------
+  xdata-const size     =    ------     ------
+  edata size           =    ------     ------
+  bit size             =    ------     ------
+  ebit size            =    ------     ------
+  bitaddressable size  =    ------     ------
+  ebitaddressable size =    ------     ------
+  far data size        =    ------     ------
+  huge data size       =    ------     ------
+  const size           =    ------     ------
+  hconst size          =    ------     ------
+End of Module Information.
+
+
+C251 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

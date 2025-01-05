@@ -1,0 +1,19 @@
+".\Objects\main.obj",
+".\Objects\myMath.obj",
+".\Objects\myDelay.obj",
+".\Objects\myTime.obj",
+".\Objects\myKey.obj",
+".\Objects\myLed.obj",
+".\Objects\myCtrl.obj",
+".\Objects\mySmg.obj",
+".\Objects\myOnewire.obj",
+".\Objects\myRtc.obj",
+".\Objects\myI2c.obj",
+".\Objects\myWave.obj",
+".\Objects\myUart.obj",
+".\Objects\scheduler.obj",
+".\COMM\stc_usb_cdc_32.LIB" 
+TO ".\Objects\led" 
+PRINT(".\Listings\led.map") CASE DISABLEWARNING (57) 
+CLASSES (EDATA (0x0-0x7FF), 
+HDATA (0x0-0x7FF)) 

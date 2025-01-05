@@ -1,0 +1,74 @@
+C251 COMPILER V5.60.0,  myWave                                                             05/01/25  22:07:34  PAGE 1   
+
+
+C251 COMPILER V5.60.0, COMPILATION OF MODULE myWave
+OBJECT MODULE PLACED IN .\Objects\myWave.obj
+COMPILER INVOKED BY: C:\Software\Keilv5\Keil\Core\C251\BIN\C251.EXE Driver\myWave.c XSMALL BROWSE INCDIR(.\App;.\COMM;.\
+                    -Driver;.\User;..\005_) DEBUG PRINT(.\Listings\myWave.lst) OBJECT(.\Objects\myWave.obj) 
+
+stmt  level    source
+
+    1          #include "myWave.h"
+    2          //sbit TX = P1^0;
+    3          //sbit RX = P1^1;
+    4          //sbit CR = CCON^6;
+    5          //void de(u8 a); // 延时函数，通过消耗CPU周期实现延时效果
+    6          
+    7          //u16 read_d()
+    8          //{
+    9          //    u16 d; // 定义变量d用于存储读取的数据
+   10          //    u8 num = 16; // 定义变量num并初始化为16，用于计数
+   11          
+   12          //    TX = 0; // 将TX设置为低电平
+   13          //      EA=0;
+   14          //    while (num--) // 执行一个循环，每次循环调用de函数进行延时，并切换TX电平
+   15          //    {
+   16          //        de(14); // 调用延时函数，延时14个周期
+   17          //        TX = !TX; // 切换TX的电平状态
+   18          //    }
+   19          //      EA=1;
+   20          
+   21          //    CH = CL = 0; // 初始化CH和CL为0
+   22          //    CR = 1; // 设置CR为1，启动数据读取
+   23          //    while (RX && CH < 0x20); // 等待RX变为0或CH达到0x20
+   24          //    CR = 0; // 设置CR为0，停止数据读取
+   25          //    d = (u16)CH << 8 | CL | 156; // 计算最终的数据值
+   26          //    return d; // 返回读取的数据值
+   27          //}
+   28          
+   29          //void de(u8 a)
+   30          //{
+   31          //    while (a--); // 消耗CPU周期以实现延时
+   32          //}
+   33          
+   34          ////***************
+   35          //void wave_proc()
+   36          //{
+   37          //    cj.d = read_d() * 0.017f; // 读取数据并乘以0.017后赋值给cj.d
+   38          //}
+
+
+Module Information          Static   Overlayable
+------------------------------------------------
+  code size            =    ------     ------
+  ecode size           =    ------     ------
+  data size            =    ------     ------
+  idata size           =    ------     ------
+  pdata size           =    ------     ------
+  xdata size           =    ------     ------
+  xdata-const size     =    ------     ------
+  edata size           =    ------     ------
+  bit size             =    ------     ------
+  ebit size            =    ------     ------
+  bitaddressable size  =    ------     ------
+  ebitaddressable size =    ------     ------
+  far data size        =    ------     ------
+  huge data size       =    ------     ------
+  const size           =    ------     ------
+  hconst size          =    ------     ------
+End of Module Information.
+
+C251 COMPILER V5.60.0,  myWave                                                             05/01/25  22:07:34  PAGE 2   
+
+
+C251 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
