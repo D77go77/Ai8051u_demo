@@ -21,11 +21,7 @@
 #include "myLed.h"
 #include "myCtrl.h"
 #include "mySmg.h"
-#include "myOnewire.h"
-#include "myRtc.h"
-#include "myI2c.h"
-#include "myWave.h"
-#include "myUart.h"
+
 
 // 定义控制命令的地址
 #define CTRL 0xa0

@@ -34,10 +34,6 @@ void init(void)
 	cj.key=0;cj.freq = 0;
 	// 初始化继电器和蜂鸣器
 	off(JDQ);off(FMQ);
-	// 初始化实时时钟、AD模块和温度传感器
-	rtc_run(0x00,0x01,0x21);
-	init_ad(0x43);
-	init_temp();
     // 初始化调度器
     Scheduler_Init();
 	

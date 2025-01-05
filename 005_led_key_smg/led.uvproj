@@ -374,31 +374,6 @@
               <FileType>1</FileType>
               <FilePath>.\Driver\mySmg.c</FilePath>
             </File>
-            <File>
-              <FileName>myOnewire.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Driver\myOnewire.c</FilePath>
-            </File>
-            <File>
-              <FileName>myRtc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Driver\myRtc.c</FilePath>
-            </File>
-            <File>
-              <FileName>myI2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Driver\myI2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>myWave.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Driver\myWave.c</FilePath>
-            </File>
-            <File>
-              <FileName>myUart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Driver\myUart.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
