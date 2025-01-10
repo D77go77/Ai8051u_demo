@@ -10,7 +10,8 @@ typedef struct
 task_t Scheduler_Task[] = {
 	{task_led0_proc,5,0},		  // LED端口扫描，每20毫秒执行一次
 	{task_led1_proc,5,0},
-	{task_beep_proc,5,0}
+	{task_beep_proc,5,0},
+	{task_key_gets, 5,0}
 };
 
 u8 task_num;//任务数量

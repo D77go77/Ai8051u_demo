@@ -27,11 +27,11 @@ void init(void)
 	
 
 	nGpio_init();
+	nKey_init();
     // 初始化调度器
     Scheduler_Init();
 	//定时器2作系统滴答定时器
 	Systick_Init();
-	
 	EA = 1;											//IE |= 0X80;开启总中断
 	while (DeviceState != DEVSTATE_CONFIGURED);     //等待USB完成配置 //仿真注释
     P40 = 0;        //LED Power On
