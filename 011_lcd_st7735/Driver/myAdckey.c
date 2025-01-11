@@ -134,10 +134,10 @@ void adc_key_proc(AdcKeyHandle *handle)
         switch (handle->KeyCode)
         {
         case 1:
-            cj.state = 10;page_number=1;
+            cj.state = 10;page_number=1;LCD_Fill(0,0,LCD_W,LCD_H,BLACK);
             break;
         case 2:
-            cj.state = 20;page_number=2;
+            cj.state = 20;page_number=2;LCD_Fill(0,0,LCD_W,LCD_H,BLACK);
             break;
         case 3:
             cj.state = 30;

@@ -46,10 +46,10 @@ void task_lcd_proc(void)
         {
             LcdSprintf(0,BLUE,BLACK,"AI8051U");
 			LcdSprintf(1,BLUE,BLACK,"CH32V307VCT6");
-			LcdSprintf(2,BLUE,BLACK,"STM32F103");
-			LcdSprintf(3,BLUE,BLACK,"STC89C52RC");
-			LcdSprintf(4,BLUE,BLACK,"STC15F2K60S2");
-			LcdSprintf(5,BLUE,BLACK,"RK3566");
+			LcdSprintf(2,GREEN,BLACK,"STM32F103");
+			LcdSprintf(3,GREEN,BLACK,"STC89C52RC");
+			LcdSprintf(4,YELLOW,BLACK,"STC15F2K60S2");
+			LcdSprintf(5,YELLOW,BLACK,"RK3566");
 
         }break;
         case 2:
