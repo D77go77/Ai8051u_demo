@@ -40,7 +40,7 @@
 
 ## 资源
 
-- [Ai8051u 官方文档](https://www.stcmcu.com/products/ai8051u.html): 包含数据手册、参考手册等详细资料。
+- [Ai8051u 官方文档](https://www.stcaimcu.com/): 包含数据手册、参考手册等详细资料。
 - [Keil C51 官方网站](https://www.keil.com/c51/): 提供开发环境的下载和使用指南。
 
 ## 许可证
